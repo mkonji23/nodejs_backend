@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>
+        로그인 테스트
+    </title>
+</head>
+
+<body>
+    <!-- built files will be auto injected -->
+    <form name="user" method="post" action="/regist">
+        <div class="input-row">
+            <label for="userid">아이디s</label>
+            <input id="userid" name="userid" type="text">
+        </div>
+        <div class="input-row">
+            <label for="name">이름</label>
+            <input id="name" name="name" type="text">
+        </div>
+        <div class="input-row">
+            <label for="address">주소</label>
+            <input id="address" name="address" type="text">
+        </div>
+        <button type="submit">전송</button>
+    </form>
+</body>
+
+</html>
