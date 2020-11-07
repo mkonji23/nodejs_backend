@@ -17,8 +17,6 @@ module.exports = {
 		'vue/no-unused-components': 'off', // 미사용 변수 체크 해제,
 		'prettier/prettier': [
 			'error',
-			// 아래 규칙들은 개인 선호에 따라 prettier 문법 적용
-			// https://prettier.io/docs/en/options.html
 			{
 				singleQuote: true,
 				semi: true,

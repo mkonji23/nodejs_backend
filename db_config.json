@@ -4,5 +4,6 @@
     "user": "root",
     "password": "mkonji23",
     "database": "test_crud",
+    "dateStrings" : "date",
     "connectionLimit": 30
 }
